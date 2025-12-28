@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Disney Cruise Countdown</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <h1>Disney Cruise Countdown</h1>
+    <p class="subtitle" id="targetLabel"></p>
+
+    <div class="grid" aria-label="Countdown">
+      <div class="tile"><div class="num" id="days">—</div><div class="lbl">Days</div></div>
+      <div class="tile"><div class="num" id="hours">—</div><div class="lbl">Hours</div></div>
+      <div class="tile"><div class="num" id="mins">—</div><div class="lbl">Minutes</div></div>
+      <div class="tile"><div class="num" id="secs">—</div><div class="lbl">Seconds</div></div>
+    </div>
+
+    <p class="foot" id="status"></p>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
